@@ -1,0 +1,589 @@
+@font-face {
+    font-family: "poppins";
+    src: url(Poppins-Regular.ttf);
+}
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "poppins";
+    box-sizing: border-box;
+}
+body,html{
+    width: 100%;
+    height: 100%;
+}
+.page-1{
+    min-height: 100vh;
+    width: 100%;
+    
+
+}
+/* nav css */
+nav{
+    display: flex;
+    background-color: rgba(250, 250, 250, 1);
+    border-radius: 5vw;
+    padding: 0.7vw 1vw;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 10px;
+    
+    
+}
+.nav-list>ul{
+    display: flex;
+    gap: 2vw;
+}
+.nav-list>ul>li{
+    list-style: none;
+    cursor: pointer;
+    &:hover{
+        text-decoration: underline;
+    }
+}
+.nav-left{
+  display: flex;
+  gap: 5.625vw;
+  align-items: center;
+}
+.nav-left span{
+    cursor: pointer;
+    &:hover{
+        text-decoration: underline;
+    }
+}
+.nav-left button{
+    width: 11vw;
+    height: 4vw;
+    border-radius: 3vw;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    &:hover{
+        text-decoration: underline;
+
+    }
+}
+
+/* hero section css*/
+.hero-section{
+    display: flex;
+    height: 50vw;
+    width: 97vw;
+    background: linear-gradient(to right,rgba(193, 222, 232, 1),rgba(251, 217, 185, 1));
+    margin-left: 1.2vw;
+    border-radius: 1vw;
+    margin-top: 1.7vw;
+    margin-bottom: 2.7vw;
+}
+.left-div{
+    width: 45%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    padding-left:20px ;
+    
+}
+.hero-left h1{
+    margin-top: 2vw;
+   
+}
+.hero-left p:nth-of-type(2){
+    margin-top: 2vw;
+}
+.hero-input-div{
+    width: 100%;
+    height: 2vw;
+    margin-top: 2vw;
+    display: flex;
+    
+}
+.hero-input-div input{
+    border: none;
+    outline: none;
+    height: 4.5vw;
+    flex: 1;
+    border-top-left-radius:2.5vw ;
+    border-bottom-left-radius:2.5vw;
+    padding: 1.563vw;
+}
+.hero-input-div button{
+    height: 4.5vw;
+    border: none;
+    outline: none;
+    width: 12vw;
+    border-radius: 40vw;
+    position: relative;
+    left: -25px;
+    background-color: rgba(31, 31, 31, 1);
+    color: #fff;
+    cursor: pointer;
+    &:hover{
+        opacity: 0.9;
+    }
+    
+}
+.hero-right{
+    width: 89vw;
+    display: flex;
+   justify-content: right;
+}
+
+.hero-right img{
+    height: 667px;
+    width: 785px;
+    
+}
+.page1-sec2{
+    margin: 4vw 0;
+}
+.page1-sec2 p{
+    text-align: center;
+    line-height: 2rem;
+}
+.page1-sec2 h1{
+    text-align: center;
+    font-size: 4vw;
+    font-weight: 600;
+    line-height: 8vw;
+}
+ .sec2-bottom{
+    display: flex;
+    justify-content:space-evenly;
+    width: 100%;
+    height: 13vw;
+    margin: 3vw 0;
+}
+.card{
+    width:25vw ;
+    height: 100% ;
+}
+.card img{
+    margin-top: 1vw;
+}
+.card h3{
+    margin-top: 1vw;
+    text-align: left;
+}
+.card p{
+    margin-top: 1vw;
+    text-align: left;
+}
+
+ /* page 2 Styling */
+
+.page-2{
+    width: 100%;
+    min-height:100vh;
+    padding: 2.5vw;
+}
+.page2-part1{
+    margin-top: 3vw;
+}
+.page2-part1 >p{
+    padding-left: 1vw;
+}
+.page2-part1 h1{
+    font-size: 4vw;
+    font-weight: 600;
+    line-height: 6vw;
+}
+.section-2{
+    min-height: 23vw;
+    width: 100%;
+    margin-top: 3vw;
+    display: flex;
+    justify-content: space-evenly;
+}
+.card-sec2{
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.3);
+    border-radius: 10px;
+    height: 100%;
+    width: 24rem;
+    
+}
+.img-sec2-div img{
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+.section-2 h4{
+    font-size: 1.5vw;
+    font-weight: 600;
+    line-height: 2vw;
+    margin-top: 1rem;
+    padding-left: 8px;
+}
+.section-2 p{
+    margin-top: 1vw;
+    font-size: 1vw;
+    line-height: 1.5vw;
+    padding-left: 8px;
+}
+.rating{
+    margin-top: 1rem;
+    padding-left: 8px;
+}
+.page2-part2{
+    margin: 5vw 0;
+}
+.heading-p2-pt2 h1{
+    text-align: center;
+}
+.page2-bottom{
+    margin-top: 4vw;
+}
+.bottom{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.bottom-right> p {
+    line-height: 2vw;
+    width: 40vw;
+    font-size: 14px;
+    margin-top: 2rem;
+}
+.button{
+    margin-top:3vw ;
+    display: flex;
+    gap: 2vw;
+}
+.btn1{
+    background-color: rgba(31, 31, 31, 1);
+    color: #fff;
+    width: 153px;
+    height: 60px;
+    border-radius: 40px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    &:hover{
+        opacity: 0.8;
+    }
+}
+.btn2{
+    background-color: transparent;
+    width: 153px;
+    height: 60px;
+    border-radius: 40px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border: 1px solid rgba(0, 0, 0, 0.664); 
+
+}
+.div-bottom{
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    margin-top: 3vw;
+
+}
+.div1 h1{
+    font-size: 5vw;
+    color: rgba(0, 0, 0, 1);
+    
+}
+.page-3{
+    height: 60vh;
+    width: 100%;
+    
+}
+.footer{
+    display: flex;
+}
+.p3-main-div{
+    height: 38vw;
+    width: 90%;
+    background: linear-gradient(to right,rgba(193, 222, 232, 1),rgba(251, 217, 185, 1));
+    margin-left: 4vw;
+    margin-bottom: 3vw;
+    border-radius: 15px;
+    padding: 2vw;
+    padding-top: 0 ;
+    padding-right: 0;
+    display: flex;
+}
+.p3-left{
+    flex-direction:column ;
+    padding-top: 3vw;
+}
+.p3-left p{
+    padding-top: 2vw ;
+}
+.p3-left > .hero-input-div{
+    padding-top: 1.5vw;
+}
+.p3-right img{
+    position: relative;
+    top: -20px;
+}
+@media (max-width:1024px){
+    nav{
+        width: 97%;
+    }
+    .hero-left h1{
+        width: 35vw;
+        font-size: 3vw;
+    }
+    .hero-section{
+        width: 97%;
+        margin-left: 1vw;
+    }
+    .hero-input-div{
+        width: 30vw;
+
+    }
+    .hero-right img{
+        width: 43vw;
+        height: 52vw;
+      
+    }
+    .sec2-top{
+        width: 97%;
+    }
+    .sec2-bottom{
+        width: 97%;
+        margin-left: 3vw;
+    }
+    .page2-part1{
+        padding-left: 2.5vw;
+    }
+    .page2-part1 h1{
+        padding-left: 0.5vw;
+    }
+    .page-2{
+        width: 97%;
+        padding: 1.5vw 1vw;
+        padding-left: 1.3vw;
+    }
+    .card-sec2{
+        width: 25vw;
+    }
+    .bottom-left img{
+        width: 40vw;
+        margin-left: 1vw;
+    }
+    .page-3{
+        width: 100%;
+        height: 30vw;
+    }
+    .p3-right img{
+       display: none;
+    }
+     
+    
+}
+@media (max-width:768px) {
+
+    .nav-list{
+        display: none;
+    }
+    .nav-left span{
+        display: none;
+    }
+    .nav-left button{
+        width: 15vw;
+        height: 5vw;
+    }
+    .left-div{
+        width: 100vw;
+    }
+    .hero-left>.hero-input-div{
+        width: 75%;
+    }
+    .page-2{
+        margin-top: 5vw;
+    }
+    .page2-part1{
+        width: 100%;
+    }
+    .page2-part1 p{
+        text-align: center;
+        font-weight: bolder;
+    }
+    .page2-part1 h1{
+        text-align: center;
+    }
+    .bottom-right{
+        margin-left: 2.5vw;
+    }
+    .bottom-right p{
+        margin-top: 1vw;
+        line-height: 2.5vw;
+    }
+    .button{
+        margin-top: 4vw;
+    }
+    .p3-left{
+        width: 100%;
+    }
+    .p3-left>.hero-input-div {
+        width: 50%;
+    }
+}
+@media (max-width:700px){
+    .hero-left>.hero-input-div{
+        width: 15.625rem;
+    }
+    .hero-left>.hero-input-div button{
+        font-size: 0.5rem;
+    }
+    .p3-left>.hero-input-div {
+        width: 15rem;
+    }
+    .p3-left>.hero-input-div button {
+        font-size: 0.5rem;
+    }
+    .card-sec2{
+        width: 180px;
+    }
+    .card-sec2 p{
+        font-size: 0.6rem;
+    }
+    .card-sec2 h4{
+        font-size: 0.8rem;
+    }
+}
+@media (max-width:425px){
+    .page-1{
+        width: 490px;
+        height: 50vh;
+    }
+    nav{
+        height: 60px;
+        margin: 20px;
+        margin-left: 10px;
+    }
+    .logo{
+        padding-left: 20px;
+    }
+    .nav-left button{
+        width: 100px;
+        height: 40px;
+        border-radius: 20px;
+        margin-right: 20px;
+    }
+    .hero-section{
+        width: 490px;
+        height: 300px;
+    }
+    .hero-left{
+        width: 470px;
+    }
+    .hero-left h1{
+        font-size: 2.5rem;
+        width: 470px;
+    }
+    .hero-right{
+        display: none;
+    }
+    .hero-left>.hero-input-div{
+        width: 300px;
+    }
+    .hero-left>.hero-input-div button{
+        font-size: 0.5rem;
+        height: 50px;
+        width: 90px;
+    }
+    .hero-left>.hero-input-div input{
+        font-size: 0.5rem;
+        height: 50px;
+        border-top-left-radius: 22px;
+        border-bottom-left-radius: 22px;
+    }
+    .card p{
+        line-height: 5vw;
+        width: 140px;
+    }
+    .page-2{
+        width: 470px;
+        position: relative;
+        top: -80px;
+        height: 175vh;
+    }
+    .section-2{
+        flex-wrap: wrap;
+    }
+    .card-sec2{
+        width: 200px;
+        height: 250px;
+    }
+    .card-sec2 p {
+        font-size: 0.8rem;
+        margin-top: 10px;
+        line-height: 12px;
+    }
+    .card3{
+        position: relative;
+        top: 10px;
+     }
+     .page2-part2{
+        width: 470px;
+        margin-top: 32px;
+     }
+     .heading-p2-pt2 h1{
+        line-break: none;
+        line-height: 2.5rem;
+     }
+     .bottom{
+        flex-direction: column-reverse;
+     }
+     .bottom-right{
+        justify-content: center;
+        margin-top: 2rem;
+     }
+     .bottom-right h1{
+        line-height: 2rem;
+        align-items: center;
+     }
+     .bottom-right >p{
+        width: 470px;
+        line-height: 1.5rem;
+     }
+     .bottom-left{
+        margin-top: 2rem;
+     }
+     .bottom-left img{
+        height: 300px;
+        width: 300px;
+     }
+     .div-bottom{
+        width: 350px;
+        margin-top: 2rem;
+     }
+     .div-bottom h1{
+        font-size: 2.5rem;
+        margin-bottom: 1rem;
+     }
+     .p3-main-div{
+        height: 320px;
+        width: 500px;
+        margin-bottom: 20px;
+     }
+     .p3-left h1{
+        width: 450px;
+     }
+     .p3-left>.hero-input-div{
+        width: 300px;
+    }
+    .p3-left>.hero-input-div button{
+        font-size: 0.5rem;
+        height: 50px;
+        width: 90px;
+    }
+    .p3-left>.hero-input-div input{
+        font-size: 0.5rem;
+        height: 50px;
+        border-top-left-radius: 22px;
+        border-bottom-left-radius: 22px;
+    }
+  }
+  @media (max-width:375px) {
+    .sec2-bottom{
+        margin-left: 0px;
+    }
+    
+  }
+
